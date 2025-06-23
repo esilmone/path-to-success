@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
+
+:root{
+    max-width: 450px;
+    font-family: Inter;
+    --purple:#484FB7:
+}
+
+h1, h2{
+    font-family: Kavoon;
+}
+
+h1{
+    font-size: 3em;
+}
+
+nav h2{
+    font-size: 1.5em;
+}
