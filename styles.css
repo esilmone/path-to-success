@@ -1,9 +1,9 @@
-/* CSS by Einna Silmone */
+/* CSS BY EINNA SILMONE */
 
-/* Imported fonts */
+/* IMPORTED FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
 
-/* CSS Reset */
+/* CSS RESET */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -53,7 +53,7 @@ table {
 	border-spacing: 0;
 }
 
-/* Root Variables */
+/* ROOT VARIABLES */
 :root{
     --teal: #4CA7C0;
     --purple: #484FB7;
@@ -63,7 +63,7 @@ table {
     --dark-gray:#1E1E1E;
     --white: #ffffff;
 
-/* Global Styles */
+/* GLOBAL STYLES (mobile first/small*/
     max-width: 450px;
     margin: 0 auto;
     font-family: Inter;
