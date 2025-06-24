@@ -218,27 +218,61 @@ h4{
 }
 
 #why-us li{
-    padding: 10px;
+    padding: 15px;
     margin: 5px;
+    font-weight: bold;
 }
 
 #why-us ul li:nth-child(1){
     background-color: var(--teal);
     width: 150px;
     text-align: center;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 #why-us ul li:nth-child(2){
     background-color: var(--lavender);
     width: 150px;
     text-align: center;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 #why-us ul li:nth-child(3){
     background-color: var(--yellow);
     width: 150px;
     text-align: center;
-    border-radius: 5px;
+    border-radius: 10px;
+}
+
+#why-us ul li:nth-child(4){
+    background-color: var(--white);
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+section table{
+    margin: 0 auto;
+    background-color: var(--yellow);
+}
+
+section table th{
+    font-weight: bold;
+    background-color: var(--yellow);
+    padding: 15px;
+}
+
+section table td{
+    background-color: var(--white);
+    padding: 15px;
+}
+
+#scheduling{
+    background-color: var(--pink);
+    padding: 15px;
+    margin: 0;
+}
+
+footer{
+    background-color: var(--purple);
 }
