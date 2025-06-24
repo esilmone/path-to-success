@@ -19,6 +19,8 @@
 
 header{
     background-color: var(--purple);
+    text-align: center;
+    color: var(--white);
 }
 
 main{
@@ -33,17 +35,12 @@ h1, h2{
 h1{
     font-size: 3em;
     text-align: center;
-    color: var(--white);
-}
-
-h1 p{
-    font-style: italic;
-    color: var(--white);
 }
 
 nav{
     background-color: var(--yellow);
     text-align: center;
+    margin: 0;
 }
 
 nav h2{
@@ -51,6 +48,7 @@ nav h2{
     color: var(--dark-gray);
     font-family: inter;
     padding: 5px;
+    font-style: italic;
 }
 
 nav ul{
@@ -70,27 +68,135 @@ nav li{
 h2{
     font-size: 2em;
     color: var(--white);
+    margin: 5px;
 }
 
 h3{
     font-size: 1.5em;
     color: var(--yellow);
+    margin: 5px;
 }
 
 h4{
     font-size: 1.15em;
     margin: 5px;
+    color: var(--purple);
 }
 
 img{
     display: block;
+    width: 65px;
+    position: relative;
+    left: 10px;
+    padding: 10px;
+}
+
+h4{
+    position: relative;
+    left: 10px;
 }
 
 #personal-development{
     align-content: center;
-    margin: 0 auto;
+    margin: 10px auto;
     padding: 5px;
-    max-width: 400px;
+    max-width: 380px;
     background-color: var(--white);
     border-radius: 15px;
+}
+
+#personal-development p{
+    margin: 0 auto;
+    max-width: 350px;
+    padding: 5px;
+}
+
+#career-coaching{
+    align-content: center;
+    margin: 10px auto;
+    padding: 5px;
+    max-width: 380px;
+    background-color: var(--white);
+    border-radius: 15px;
+}
+
+#career-coaching p{
+    margin: 0 auto;
+    max-width: 350px;
+    padding: 5px;
+}
+
+#relationship-coaching{
+    align-content: center;
+    margin: 10px auto;
+    padding: 5px;
+    max-width: 380px;
+    background-color: var(--white);
+    border-radius: 15px;
+}
+
+#relationship-coaching p{
+    margin: 0 auto;
+    max-width: 350px;
+    padding: 5px;
+}
+
+#supportive-community{
+    align-content: center;
+    margin: 10px auto;
+    padding: 5px;
+    max-width: 380px;
+    background-color: var(--white);
+    border-radius: 15px;
+}
+
+#supportive-community p{
+    margin: 0 auto;
+    max-width: 350px;
+    padding: 5px;
+}
+
+#focused-sessions{
+    align-content: center;
+    margin: 10px auto;
+    padding: 5px;
+    max-width: 380px;
+    background-color: var(--white);
+    border-radius: 15px;
+}
+
+#focused-sessions p{
+    margin: 0 auto;
+    max-width: 350px;
+    padding: 5px;
+}
+
+#interactive-learning{
+    align-content: center;
+    margin: 10px auto;
+    padding: 5px;
+    max-width: 380px;
+    background-color: var(--white);
+    border-radius: 15px;
+}
+
+#interactive-learning p{
+    margin: 0 auto;
+    max-width: 350px;
+    padding: 5px;
+}
+
+#flexible-learning{
+    align-content: center;
+    margin: 10px auto;
+    padding: 5px;
+    max-width: 380px;
+    background-color: var(--white);
+    border-radius: 15px;
+}
+
+#flexible-learning p{
+    margin: 0 auto;
+    max-width: 350px;
+    padding: 5px;
 }
