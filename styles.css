@@ -51,8 +51,11 @@ nav h2{
     font-style: italic;
 }
 
-nav ul{
+ul > li{
     list-style-type: none;
+}
+
+nav ul{
     padding: .5rem;
 }
 
@@ -199,4 +202,43 @@ h4{
     margin: 0 auto;
     max-width: 350px;
     padding: 5px;
+}
+
+#why-us{
+    background-color: var(--pink);
+    padding: 5px;
+}
+
+#why-us ul{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    padding: 10px;
+    margin: 5px auto;
+}
+
+#why-us li{
+    padding: 10px;
+    margin: 5px;
+}
+
+#why-us ul li:nth-child(1){
+    background-color: var(--teal);
+    width: 150px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#why-us ul li:nth-child(2){
+    background-color: var(--lavender);
+    width: 150px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#why-us ul li:nth-child(3){
+    background-color: var(--yellow);
+    width: 150px;
+    text-align: center;
+    border-radius: 5px;
 }
