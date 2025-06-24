@@ -23,9 +23,15 @@ header{
     color: var(--white);
 }
 
+body{
+    padding: 0;
+    margin: 0;
+}
+
 main{
     background-color: var(--purple);
-    padding: 15px;
+    padding: 10px 10px 5px 10px;
+    margin: 0;
 }
 
 h1, h2{
@@ -35,6 +41,7 @@ h1, h2{
 h1{
     font-size: 3em;
     text-align: center;
+    margin: 0;
 }
 
 nav{
@@ -47,8 +54,9 @@ nav h2{
     font-size: 1.5em;
     color: var(--dark-gray);
     font-family: inter;
-    padding: 5px;
     font-style: italic;
+    padding: 2px;
+    margin: 0 auto;
 }
 
 ul > li{
@@ -57,21 +65,24 @@ ul > li{
 
 nav ul{
     padding: .5rem;
+    margin: 0;
 }
 
 nav li{
     color: var(--purple);
     width: 350px;
+    height: 25px;
     background-color: var(--white);
+    font-size: 1.15em;
     font-weight: bold;
-    margin: 5px auto;
+    margin: 5px auto;   
     padding: 5px;
 }
 
 h2{
     font-size: 2em;
     color: var(--white);
-    margin: 5px;
+    margin: 0px;
 }
 
 h3{
@@ -206,7 +217,11 @@ h4{
 
 #why-us{
     background-color: var(--pink);
-    padding: 5px;
+    width: 100%;
+    padding: 10px;
+    margin: 0 auto;
+    position: relative;
+    left: -10px;
 }
 
 #why-us ul{
@@ -268,11 +283,38 @@ section table td{
 }
 
 #scheduling{
+    width: 97.5%;
     background-color: var(--pink);
+    color: var(--white);
     padding: 15px;
-    margin: 0;
+    margin: 10px auto;
+    position: relative;
+    left: -10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#scheduling a{
+    display: block;
+    text-align: center;
+    padding: 20px;
+    color: var(--dark-gray);
+    background-color: var(--white);
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px;
+}
+
+#scheduling a:hover{
+    background-color: var(--dark-gray);
+    color: var(--white);
 }
 
 footer{
     background-color: var(--purple);
+    color: var(--white);
+    padding: 10px;
+    margin: 0;
 }
